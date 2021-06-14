@@ -38,7 +38,8 @@ body {
 
 
 .card:hover,
-.card:focus {
+.card:focus,
+.card:active {
 	background: url("../Images/houcine-ncib-B4TjXnI0Y2c-unsplash.jpg") left center no-repeat;
 	background-size: 600px;
 	border: 1px solid white;
@@ -46,7 +47,8 @@ body {
 }
 
 .card:hover .card-name,
-.card:focus .card-name {
+.card:focus .card-name,
+.card:active {
 	opacity: 1;
 }
 
